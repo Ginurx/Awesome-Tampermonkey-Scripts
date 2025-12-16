@@ -134,6 +134,10 @@
             opacity: 1;
             transform: translateX(0);
         }
+
+        div[watermark="main"] {
+            background-image: none !important;
+        }
     `;
 
     // 初始化样式
